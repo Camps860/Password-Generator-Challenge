@@ -1,6 +1,6 @@
 // Assignment code here
 var characterLength = 8;
-var choiceArr = ['!', '@', '#', '$', '%', '&', '*'];
+var choiceArr = [''];
 
 
 var specialCharArr = ['!', '@', '#', '$', '%', '&', '*'];
@@ -10,7 +10,7 @@ var numberArr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
 
 var generateBtn = document.querySelector("#generate");
-
+  
 
 generateBtn.addEventListener("click", writePassword);
 
